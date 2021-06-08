@@ -68,7 +68,7 @@ html_static_path = ['_static']
 # If true, "Created using Sphinx" is shown in the HTML footer.
 # Default is True.
 html_show_sphinx = False
-
+html_logo = "_static/logo1.png"
 #PDF
 #pdf_documents = [('index', u'rst2pdf', u'Sample rst2pdf doc', u'Your Name'),]
   # index - master document
