@@ -7,3 +7,14 @@
 .. figure:: _static/Верховье-оперток.svg
        :align: center
 
+ПС 110кВ КСМ
+~~~~~~~~~~~~~~~~~
+
+.. figure:: _static/КСМ-оперток.svg
+       :align: center
+
+ПС 35кВ Курино
+~~~~~~~~~~~~~~~~~
+
+.. figure:: _static/Курино-оперток.svg
+       :align: center
