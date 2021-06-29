@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Уставки'
-copyright = '2021, Филиал Витебские электрические сети'
+copyright = '2021, Филиал Витебские электрические сети, Саулич Алексей'
 author = 'СРЗАИ'
 
 # The full version, including alpha/beta/rc tags
