@@ -18,3 +18,15 @@
 
 .. figure:: _static/Курино-оперток.svg
        :align: center
+
+ПС 110кВ Городок
+~~~~~~~~~~~~~~~~
+
+.. figure:: _static/Городок-оперток.svg
+       :align: center
+
+ПС 110кВ Соржица
+~~~~~~~~~~~~~~~~
+
+.. figure:: _static/Соржица-оперток.svg
+       :align: center
