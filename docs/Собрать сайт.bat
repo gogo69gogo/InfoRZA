@@ -1,2 +1,4 @@
+z:
+cd z:\RZAI\“αβ Άª¨\Ustavki\docs
 make html
-TIMEOUT /T 10000
+timeout /t 10000

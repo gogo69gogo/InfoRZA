@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Уставки'
+project = 'Информация по РЗА'
 copyright = '2021, Филиал Витебские электрические сети, Саулич Алексей'
 author = 'СРЗАИ'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+release = '1.5'
 
 
 # -- General configuration ---------------------------------------------------
