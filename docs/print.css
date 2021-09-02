@@ -1,5 +1,5 @@
 body {
-    font-size: 16px;
+    font-size: 14px;
     font-family: placeholder: Times New Roman
     background: transparent !important;
     background-color: #ffffff !important;
@@ -8,14 +8,11 @@ body {
     text-shadow: none !important;
     }
 
-footer, header,
-div.footer, div.header {
-  background-color: #ffffff;
-}
-
 h1 {
-  font-size: 16px;
-  text-align: center;
+  font-size: 14px;
+  text-align: left;
+  text-indent: 40em;
+  line-height: 40%;
 }
 
 h2 {
