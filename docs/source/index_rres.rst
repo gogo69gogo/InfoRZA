@@ -3,6 +3,9 @@
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
+   :caption: Table of Contents
+   :name: mastertoc
  
    Инструкции/Краткая характеристика оборудования
    Инструкции/Сураж
