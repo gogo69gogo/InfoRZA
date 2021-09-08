@@ -72,6 +72,7 @@ html_logo = "_static/logo1.png"
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_engine = 'pdflatex'
+
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
@@ -154,8 +155,8 @@ latex_elements = {
 
         \RequirePackage{tocbibind} %%% comment this to remove page number for following
         \addto\captionsenglish{\renewcommand{\contentsname}{Table of contents}}
-        \addto\captionsenglish{\renewcommand{\listfigurename}{List of figures}}
-        \addto\captionsenglish{\renewcommand{\listtablename}{List of tables}}
+        % \addto\captionsenglish{\renewcommand{\listfigurename}{List of figures}}
+        % \addto\captionsenglish{\renewcommand{\listtablename}{List of tables}}
         % \addto\captionsenglish{\renewcommand{\chaptername}{Chapter}}
 
 
@@ -176,36 +177,20 @@ latex_elements = {
         \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
 
         \begin{titlepage}
-            \centering
-
-            \vspace*{40mm} %%% * is used to give space from top
-            \textbf{\Huge {Инструкция по эксплуатации РЗА ПС 35кВ Сураж}}
-
-            \vspace{0mm}
-            \begin{figure}[!h]
-                \centering
-                \includegraphics[scale=0.3]{logo1.png}
-            \end{figure}
-
-            \vspace{0mm}
-            \Large \textbf{{Беспалов А.В.}}
-
-            \small Создана : 8 сентября 2021г.
-
-            \vspace*{0mm}
-            \small  Последнее обновление : \MonthYearFormat\today
-
-
-            %% \vfill adds at the bottom
-            \vfill
-            \small \textit{Больше информации доступно на сайте }{\href{http://http://rza.ves.vitebsk.energo.net/}{Информация по РЗА}}
+            \large
+            \leftskip=300pt УТВЕРЖДАЮ\\
+            Главный инженер\\
+            {\_}{\_}{\_}{\_}{\_}{\_}А.В.Рубченко\\
+            {\_}{\_}.{\_}{\_} 2021г.\\
+           
+           \leftskip=20pt
+           \vspace{120pt}
+           Инструкция по эксплуатации РЗА ВГРЭС
         \end{titlepage}
 
         \clearpage
         \pagenumbering{roman}
         \tableofcontents
-        \listoffigures
-        \listoftables
         \clearpage
         \pagenumbering{arabic}
 
@@ -226,13 +211,12 @@ latex_elements = {
 
 
 }
-
 latex_logo = '_static/logo1.png'
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index_rres', 'sphinx.tex', 'Инструкция по эксплуатации РЗА ПС 35кВ Сураж',
-     'Беспалов А.В.', 'report')
+    ('index_vgres', 'sphinx.tex', 'Инструкция по эксплуатации РЗА ВГРЭС',
+     'Быков М.К.', 'report')
 ]
