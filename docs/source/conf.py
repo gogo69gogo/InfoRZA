@@ -110,7 +110,9 @@ latex_elements = {
         \usepackage{transparent}
         \usepackage{eso-pic}
         \usepackage{lipsum}
-
+        \usepackage{longtable}
+               
+        
         \usepackage{footnotebackref} %%link at the footnote to go to the place of footnote in the text
 
         %% spacing between line
@@ -154,7 +156,7 @@ latex_elements = {
         \renewcommand{\footrulewidth}{0.5pt}
 
         \RequirePackage{tocbibind} %%% comment this to remove page number for following
-        \addto\captionsenglish{\renewcommand{\contentsname}{Table of contents}}
+        \addto\captionsenglish{\renewcommand{\contentsname}{Оглавление}}
         % \addto\captionsenglish{\renewcommand{\listfigurename}{List of figures}}
         % \addto\captionsenglish{\renewcommand{\listtablename}{List of tables}}
         % \addto\captionsenglish{\renewcommand{\chaptername}{Chapter}}
@@ -185,14 +187,17 @@ latex_elements = {
            
            \leftskip=20pt
            \vspace{120pt}
-           Инструкция по эксплуатации РЗА ВГРЭС
+           ИНСТРУКЦИЯ\\
+            {\_}{\_}{\_}{\_}{\_}{\_}№{\_}{\_}{\_}{\_}{\_}{\_}\\
+            г.Витебск\\
+            по эксплуатации РЗА ПС 35кВ Сураж
         \end{titlepage}
 
         \clearpage
-        \pagenumbering{roman}
+        \renewcommand\contentsname{Оглавление}
         \tableofcontents
-        \clearpage
         \pagenumbering{arabic}
+        \clearpage
 
         ''',
     # Latex figure (float) alignment
@@ -206,7 +211,7 @@ latex_elements = {
         InnerLinkColor={rgb}{0,0,1}, \
         OuterLinkColor={rgb}{0,0,1}',
 
-        'tableofcontents':' ',
+        'tableofcontents':'',
 
 
 
@@ -217,6 +222,6 @@ latex_logo = '_static/logo1.png'
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index_vgres', 'sphinx.tex', 'Инструкция по эксплуатации РЗА ВГРЭС',
-     'Быков М.К.', 'report')
+    ('index_rres', 'sphinx.tex', 'Инструкция по эксплуатации РЗА ПС 35кВ Сураж',
+     'Беспалов А.В.', 'report')
 ]
