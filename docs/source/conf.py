@@ -190,7 +190,7 @@ latex_elements = {
            ИНСТРУКЦИЯ\\
             {\_}{\_}{\_}{\_}{\_}{\_}№{\_}{\_}{\_}{\_}{\_}{\_}\\
             г.Витебск\\
-            по эксплуатации РЗА ПС 35кВ Сураж
+            по эксплуатации РЗА ВГРЭС
         \end{titlepage}
 
         \clearpage
@@ -222,6 +222,6 @@ latex_logo = '_static/logo1.png'
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index_rres', 'sphinx.tex', 'Инструкция по эксплуатации РЗА ПС 35кВ Сураж',
-     'Беспалов А.В.', 'report')
+    ('index_vgres', 'sphinx.tex', 'Инструкция по эксплуатации РЗА ВГРЭС',
+     'Быков М.К.', 'report')
 ]
