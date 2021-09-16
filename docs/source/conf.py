@@ -22,7 +22,7 @@ copyright = '2021, Филиал Витебские электрические с
 author = 'СРЗАИ'
 
 # The full version, including alpha/beta/rc tags
-release = '1.6'
+release = 'Версия 0.01'
 
 
 # -- General configuration ---------------------------------------------------
@@ -124,6 +124,7 @@ latex_elements = {
 
         %%%%%%%%%%% datetime
         \usepackage{datetime}
+        \usepackage{svg}
 
         \newdateformat{MonthYearFormat}{%
             \monthname[\THEMONTH], \THEYEAR}
@@ -179,6 +180,13 @@ latex_elements = {
         \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
 
         \begin{titlepage}
+        
+%            \begin{figure}[htbp]
+%                \centering
+%                \includesvg{.._static\УТВЕРЖДАЮ_Рубченко.svg}
+%                \caption{svg image}
+%            \end{figure}
+
             \large
             \leftskip=300pt УТВЕРЖДАЮ\\
             Главный инженер\\
