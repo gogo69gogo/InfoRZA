@@ -1,4 +1,6 @@
 /docs/build
+/.idea
 docs/source/Перечни/.~lock.Инструкции.csv#
+
 *.log
 *.pdf
