@@ -30,12 +30,12 @@
    showgrid="false"
    inkscape:snap-nodes="false"
    inkscape:zoom="0.36168673"
-   inkscape:cx="897.18525"
-   inkscape:cy="1220.6696"
+   inkscape:cx="443.75418"
+   inkscape:cy="377.39842"
    inkscape:window-width="1920"
-   inkscape:window-height="1001"
-   inkscape:window-x="-9"
-   inkscape:window-y="-9"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
    inkscape:window-maximized="1"
    inkscape:current-layer="g9898" />
 	<title
@@ -21218,7 +21218,7 @@
    xml:space="preserve"><tspan
      x="7.9400001"
      y="1674.29"
-     id="tspan37145">Ячейки 862-854</tspan></text>		</g>
+     id="tspan18198">Ячейки 862-854</tspan></text>		</g>
 		<g
    id="shape1337-3165"
    v:mID="1337"
@@ -21278,7 +21278,7 @@
    xml:space="preserve"><tspan
      x="7.9400001"
      y="1674.29"
-     id="tspan37147">Ячейки 849-850</tspan></text>		</g>
+     id="tspan18200">Ячейки 849-850</tspan></text>		</g>
 		<g
    id="shape170-3175"
    v:mID="170"
@@ -29678,11 +29678,11 @@
    id="shape2392-4468"
    v:mID="2392"
    v:groupContext="shape"
-   transform="translate(-599.527,693.453) rotate(-90.0612)">
+   transform="matrix(-0.00112554,-0.86362499,1.0537361,-9.2247405e-4,-689.99112,691.92829)">
 			<title
    id="title8630">Лист.2392</title>
 			<path
-   d="M0 1683.78 L577.56 1683.78"
+   d="M 0,1683.78 H 577.56"
    class="st3"
    id="path8632" />
 		</g>
@@ -33055,32 +33055,15 @@
    x="4"
    dy="1.2em"
    class="st11"
-   id="tspan9800">_____________</tspan><tspan
-   class="st11"
-   v:langID="1049"
-   id="tspan9802">А</tspan>.<tspan
-   class="st11"
-   v:langID="1049"
-   id="tspan9804">В</tspan>.<tspan
-   class="st11"
-   v:langID="1049"
-   id="tspan9806">Рубченко<v:newlineChar /></tspan><tspan
+   id="tspan9800">_____________А</tspan>.В.Рубченко<tspan
    x="4"
    dy="1.2em"
    class="st11"
-   id="tspan9808">«</tspan><tspan
+   id="tspan9808">«01</tspan>»<tspan
    class="st19"
    v:langID="1049"
-   id="tspan9810">18</tspan>»<tspan
-   class="st19"
-   v:langID="1049"
-   id="tspan9812">      </tspan><tspan
-   class="st19"
-   v:langID="1049"
-   id="tspan9814">02         </tspan>20<tspan
-   class="st11"
-   v:langID="1049"
-   id="tspan9816">19</tspan>г.</text>			</g>
+   id="tspan9812"
+   style="text-decoration:underline;text-decoration-line:underline">      10         </tspan>2021г.</text>			</g>
 		</g>
 		<g
    id="shape2564-5071"
@@ -33188,7 +33171,7 @@
    y="1673.21"
    class="st7"
    v:langID="1049"
-   id="text9851"><v:paragraph /><v:tabList />18.02.19</text>		</g>
+   id="text9851"><v:paragraph /><v:tabList />01.10.21</text>		</g>
 		<g
    id="shape2566-5085"
    v:mID="2566"
