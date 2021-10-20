@@ -35,3 +35,9 @@
 
 .. figure:: _static/Соржица-оперток.svg
        :align: center
+
+ПС 110кВ Шумилино
+~~~~~~~~~~~~~~~~~~
+
+.. figure:: _static/Шумилино-оперток.svg
+       :align: center
