@@ -22,7 +22,7 @@ copyright = '2021, Филиал Витебские электрические с
 author = 'СРЗАИ'
 
 # The full version, including alpha/beta/rc tags
-release = 'Версия 0.01'
+release = 'Версия 0.15'
 
 
 # -- General configuration ---------------------------------------------------
