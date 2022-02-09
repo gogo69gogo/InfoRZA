@@ -1,2 +1,2 @@
-git pull work
+git pull
 TIMEOUT /T 20000
