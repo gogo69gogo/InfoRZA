@@ -1,3 +1,0 @@
-c:\users\rzi1\appdata\local\programs\python\python37\lib\site-packages\ReText\window.py:404: RuntimeWarning: Dictionary for language 'ru_RU' could not be found
-Please check https://pyenchant.github.io/pyenchant/ for details
-  warnings.warn(str(e), RuntimeWarning)

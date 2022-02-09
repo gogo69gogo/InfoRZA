@@ -231,6 +231,6 @@ latex_logo = '_static/logo1.png'
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index_rres', 'sphinx.tex', 'Инструкция по эксплуатации РЗА РРЭС',
+    ('index', 'sphinx.tex', 'Инструкция по эксплуатации РЗА РРЭС',
      'Беспалов А.В.', 'report')
 ]
