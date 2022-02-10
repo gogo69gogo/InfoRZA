@@ -1,6 +1,6 @@
-echo off
+ï»¿echo off
 git add *
-set /p "parameter=Ž¯¨è¨â¥ ¨§¬¥­¥­¨¥: "
+set /p "parameter=ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: "
 git commit -m "%parameter%"
 git push
 TIMEOUT /T 20000
