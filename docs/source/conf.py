@@ -191,8 +191,8 @@ latex_elements = {
             \leftskip=300pt УТВЕРЖДАЮ\\
             Первый заместитель директора-\\
             главный инженер\\
-            {\_}{\_}{\_}{\_}{\_}{\_}В.Н.Зеньков\\
-            {\_}{\_}.{\_}{\_} 2021г.\\
+            {\_}{\_}{\_}{\_}{\_}{\_}С.О.Биндовский\\
+            15.02.2022г.\\
            
            \leftskip=20pt
            \vspace{120pt}
@@ -201,7 +201,7 @@ latex_elements = {
             г.Витебск\\
             по эксплуатации РЗА РРЭС
         \end{titlepage}
-
+        \clearpage
         \clearpage
         \renewcommand\contentsname{Оглавление}
         \tableofcontents
@@ -231,6 +231,6 @@ latex_logo = '_static/logo1.png'
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index', 'sphinx.tex', 'Инструкция по эксплуатации РЗА РРЭС',
+    ('index_rres', 'sphinx.tex', 'Инструкция по эксплуатации РЗА РРЭС',
      'Беспалов А.В.', 'report')
 ]
