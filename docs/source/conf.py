@@ -101,6 +101,7 @@ latex_elements = {
 
         \usepackage{amsmath,amsfonts,amssymb,amsthm}
         \usepackage{graphicx}
+        \graphicspath{ {./_static/} }
 
         %%% reduce spaces for Table of contents, figures and tables
         %%% it is used "\addtocontents{toc}{\vskip -1.2cm}" etc. in the document
@@ -181,18 +182,17 @@ latex_elements = {
 
         \begin{titlepage}
         
-%            \begin{figure}[htbp]
-%                \centering
-%                \includesvg{.._static\УТВЕРЖДАЮ_Рубченко.svg}
-%                \caption{svg image}
-%            \end{figure}
+            \begin{figure}[h]
+                \raggedleft
+                \includegraphics{C:/Users/rzi1/InfoRZA/docs/source/_static/UtvBindovsky.png}
+            \end{figure}
 
-            \large
-            \leftskip=300pt УТВЕРЖДАЮ\\
-            Первый заместитель директора-\\
-            главный инженер\\
-            {\_}{\_}{\_}{\_}{\_}{\_}С.О.Биндовский\\
-            15.02.2022г.\\
+%            \large
+%            \leftskip=300pt УТВЕРЖДАЮ\\
+%            Первый заместитель директора-\\
+%            главный инженер\\
+%            {\_}{\_}{\_}{\_}{\_}{\_}С.О.Биндовский\\
+%            15.02.2022г.\\
            
            \leftskip=20pt
            \vspace{120pt}
