@@ -22,7 +22,7 @@ copyright = '2021, Филиал Витебские электрические с
 author = 'СРЗАИ'
 
 # The full version, including alpha/beta/rc tags
-release = 'Версия 0.26'
+release = 'Версия 0.30'
 
 
 # -- General configuration ---------------------------------------------------
@@ -182,24 +182,24 @@ latex_elements = {
 
         \begin{titlepage}
         
-            \begin{figure}[h]
-                \raggedleft
-                \includegraphics{C:/Users/rzi1/InfoRZA/docs/source/_static/UtvBindovsky.png}
-            \end{figure}
+%            \begin{figure}[h]
+%                \raggedleft
+%                \includegraphics{C:/Users/rzi1/InfoRZA/docs/source/_static/UtvBindovsky.png}
+%            \end{figure}
 
-%            \large
-%            \leftskip=300pt УТВЕРЖДАЮ\\
-%            Первый заместитель директора-\\
-%            главный инженер\\
-%            {\_}{\_}{\_}{\_}{\_}{\_}С.О.Биндовский\\
-%            15.02.2022г.\\
+            \large
+            \leftskip=300pt УТВЕРЖДАЮ\\
+            Первый заместитель директора-\\
+            главный инженер\\
+            {\_}{\_}{\_}{\_}{\_}{\_}С.О.Биндовский\\
+            18.02.2022г.\\
            
            \leftskip=20pt
            \vspace{120pt}
            ИНСТРУКЦИЯ\\
             {\_}{\_}{\_}{\_}{\_}{\_}№{\_}{\_}{\_}{\_}{\_}{\_}\\
             г.Витебск\\
-            по эксплуатации РЗА РРЭС
+            по эксплуатации САОН на ПС 110кВ В.Северная и Технологическая
         \end{titlepage}
         \clearpage
         \clearpage
@@ -231,6 +231,6 @@ latex_logo = '_static/logo1.png'
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index_rres', 'sphinx.tex', 'Инструкция по эксплуатации РЗА РРЭС',
+    ('index_cds', 'sphinx.tex', 'Инструкция по эксплуатации САОН',
      'Беспалов А.В.', 'report')
 ]
