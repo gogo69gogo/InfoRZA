@@ -182,22 +182,22 @@ latex_elements = {
 
         \begin{titlepage}
         
-%            \begin{figure}[h]
-%                \raggedleft
-%                \includegraphics{C:/Users/rzi1/InfoRZA/docs/source/_static/UtvBindovsky.png}
-%            \end{figure}
+            \begin{figure}[h]
+                \raggedleft
+                \includegraphics{C:/Users/rzi1/InfoRZA/docs/source/_static/UtvBindovsky.png}
+            \end{figure}
 
-            \large
-            \leftskip=300pt УТВЕРЖДАЮ\\
-            Первый заместитель директора-\\
-            главный инженер\\
-            {\_}{\_}{\_}{\_}{\_}{\_}С.О.Биндовский\\
-            18.02.2022г.\\
+%            \large
+%            \leftskip=300pt УТВЕРЖДАЮ\\
+%            Первый заместитель директора-\\
+%            главный инженер\\
+%            {\_}{\_}{\_}{\_}{\_}{\_}С.О.Биндовский\\
+%            18.02.2022г.\\
            
            \leftskip=20pt
            \vspace{120pt}
            ИНСТРУКЦИЯ\\
-            {\_}{\_}{\_}{\_}{\_}{\_}№{\_}{\_}{\_}{\_}{\_}{\_}\\
+            18.02.2022г. №{\_}{\_}{\_}{\_}{\_}{\_}\\
             г.Витебск\\
             по эксплуатации САОН на ПС 110кВ В.Северная и Технологическая
         \end{titlepage}
